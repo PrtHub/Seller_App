@@ -9,6 +9,10 @@ const HotelDetails = () => {
   console.log(id);
   const property = hotels.find((hotel) => hotel.id === parseInt(id));
 
+  const goBack = () => {
+    window.history.back();
+  }
+
   return (
     <main className="w-full h-full flex flex-col items-start justify-start gap-5 my-20 px-10">
       <LazyLoadImage
@@ -30,6 +34,7 @@ const HotelDetails = () => {
           {property.des}
         </span>
       </p>
+      <button onClick={goBack} className="bg-blue-600 text-white px-4 py-2 rounded-lg mt-10">&larr; Back</button>
     </main>
   );
 };
