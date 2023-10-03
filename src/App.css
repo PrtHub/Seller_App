@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-blue-50 font-open
+}
+
+.list-item {
+  @apply  bg-indigo-100 px-4 py-2 rounded-2xl cursor-pointer list-none border-none font-semibold text-gray-600 hover:bg-blue-600 hover:text-white transition-all duration-300 ease-in-out
+}
