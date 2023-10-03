@@ -4,25 +4,53 @@ import { hotels } from "../data/hotelsData";
 
 const Hotels = () => {
   const [visibleHotels, setVisibleHotels] = useState(6);
+  const [selectedTag, setSelectedTag] = useState("New York");
 
   const showMoreHotels = () => {
     setVisibleHotels(visibleHotels + 3);
   };
 
+  const filterHotelByTag = (tag) => {
+    setSelectedTag(tag);
+    setVisibleHotels(6);
+  };
+
+  const filterdHotels = selectedTag
+    ? hotels.filter((hotel) => hotel.tag === selectedTag)
+    : hotels;
+
   return (
     <main className="w-full h-full flex flex-col gap-5 my-5 px-10">
       <section className="w-full flex justify-between items-center">
         <ul className="flex items-center justify-center gap-5 text-sm">
-          <li className="list-item">New York</li>
-          <li className="list-item">Mumbai</li>
-          <li className="list-item">Paris</li>
-          <li className="list-item">London</li>
+          <li
+            className={`list-item ${
+              selectedTag === "New York" ? "bg-blue-600 text-white" : ""
+            }`}
+            onClick={() => filterHotelByTag("New York")}
+          >
+            New York
+          </li>
+          <li className={`list-item ${
+              selectedTag === "Mumbai" ? "bg-blue-600 text-white" : ""
+            }`} onClick={() => filterHotelByTag("Mumbai")}>
+            Mumbai
+          </li>
+          <li className={`list-item ${
+              selectedTag === "Paris" ? "bg-blue-600 text-white" : ""
+            }`} onClick={() => filterHotelByTag("Paris")}>
+            Paris
+          </li>
+          <li className={`list-item ${
+              selectedTag === "London" ? "bg-blue-600 text-white" : ""
+            }`} onClick={() => filterHotelByTag("London")}>
+            London
+          </li>
         </ul>
-        <button className="list-item">Favorites</button>
       </section>
 
       <section className="grid grid-cols-3 gap-10 my-5">
-        {hotels.slice(0, visibleHotels).map((hotel) => (
+        {filterdHotels.slice(0, visibleHotels).map((hotel) => (
           <section key={hotel.id}>
             <HotelCard hotel={hotel} />
           </section>
