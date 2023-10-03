@@ -1,4 +1,4 @@
-import { l1, l2, l3, m1, n1, n2, n3, n4, n5, n6, n7, p1, p2, p3 } from "../assets";
+import { l1, l2, l3, m1, m2, n1, n2, n3, n4, n5, n6, n7, p1, p2, p3 } from "../assets";
 
 
 export const hotels = [
@@ -86,11 +86,24 @@ export const hotels = [
     img: m1,
     name: 'The Taj Mahal Palace - Apollo Bandar, Colaba',
     location: 'Mumbai',
-    room: 5,
-    bed: 6,
-    bath: 2,
+    room: 55,
+    bed: 120,
+    bath: 60,
     price: "$5,001",
-    tag: "Mumbai"
+    tag: "Mumbai",
+    des:""
+  },
+  {
+    id: 81,
+    img: m2,
+    name: 'Fairfield - Building 16B, Samita Industrial Estate',
+    location: 'Mumbai',
+    room: 30,
+    bed: 46,
+    bath: 40,
+    price: "$3,001",
+    tag: "Mumbai",
+    des:""
   },
 
 
