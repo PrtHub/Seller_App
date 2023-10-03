@@ -7,33 +7,37 @@ export const hotels = [
     img: n1,
     name: 'The Langham - 400 5th Ave, New York',
     location: 'NY 10018',
-    room: 5,
-    bed: 6,
-    bath: 2,
+    room: 25,
+    bed: 40,
+    bath: 28,
     price: "$5,058",
-    tag: "New York"
+    tag: "New York",
+    des:"On busy 5th Avenue, this elegant hotel in a modern tower is a 6-minute walk from Bryant Park and 5 minutes on foot from the Empire State Building. It's also a 12-minute walk from the Theater District.The understated rooms have wood accents and marble bathrooms, as well as free Wi-Fi, flat-screen TVs and coffeemakers. Suites, all on upper floors, have kitchens and city views.A contemporary bar serves casual food and drink, while a chic restaurant offers Mediterranean fine dining. Other amenities include a luxury spa, a 24-hour fitness center and a hair salon, plus 7,500 sq ft of event space."
   },
   {
     id: 2,
     img: n2,
     name: 'The Grand NY Hotel- 555 Main St, New York',
     location: 'NY 84111',
-    room: 5,
-    bed: 6,
-    bath: 2,
+    room: 32,
+    bed: 42,
+    bath: 40,
     price: "$3,123",
-    tag: "New York"
+    tag: "New York",
+    des: "This old-world-style luxury hotel is in a historic property that dates from 1874; it's a 1-minute walk from the Long Island Railroad and 19 miles from Manhattan.The posh rooms have flat-screen TVs, Italian furniture, Wi-Fi (surcharge) and 24-hour room service. Upgraded suites add kitchenettes and living areas, while some feature an additional bathroom and private outdoor patios. Perks include 25,000 sq ft of event space, an indoor pool, a spa and sauna, a fitness center and an upscale steakhouse, plus a seasonal patio bar, and lounge. Pet walking and feeding services are available. Parking is free."
+
   },
   {
     id: 3,
     img: n3,
     name: 'LaGuardia Plaza Hotel- 10404 Ditmars Blvd, Queens',
     location: 'NY 11369',
-    room: 5,
-    bed: 6,
-    bath: 2,
+    room: 58,
+    bed: 82,
+    bath: 69,
     price: "$6,123",
-    tag: "New York"
+    tag: "New York",
+    des: "Across the Grand Central Parkway from LaGuardia Airport, this contemporary business hotel is 7 miles from Midtown Manhattan.Modern rooms feature flat-screen TVs, free Wi-Fi and sitting areas. Suites add separate living areas; some include whirlpool tubs and/or terraces.A 24-hour airport shuttle is complimentary. Other amenities include an indoor pool, a sauna and a fitness center.There's also a sleek bar. Parking is available(surcharge)."
   },
   {
     id: 4,
@@ -44,7 +48,8 @@ export const hotels = [
     bed: 6,
     bath: 2,
     price: "$5,342",
-    tag: "New York"
+    tag: "New York",
+    des: "This contemporary, brick-and-glass hotel set in the Chelsea Flower District is a 3-minute walk from the 28th St. subway station and a 9-minute walk from the Empire State Building.Offering free Wi-Fi and flat-screen TVs, the posh, modern rooms with wooden floors and padded leather headboards also have microwaves, minifridges, and room service, along with safes and coffeemakers. Some have pull-out sofas. Suites add a separate sitting area and floor-to-ceiling windows.Amenities include a mod-style lobby, a rooftop lounge, and a swanky, bistro-style restaurant and bar serving breakfast and dinner. There's also an outdoor cafe and a fitness room."
   },
   {
     id: 5,
@@ -55,29 +60,32 @@ export const hotels = [
     bed: 6,
     bath: 2,
     price: "$4,987",
-    tag: "New York"
+    tag: "New York",
+    des:"This high-end hotel on a tree-lined Upper East Side street is 2 blocks from the subway, and 4 blocks from Central Park and the Guggenheim Museum.The cozy, contemporary rooms have designer toiletries, original artwork, flat-screen TVs, iPod docks and free Wi-Fi.Perks include a complimentary European-buffet-style breakfast, a daily wine and cheese reception, and a 24-hour espresso and cappuccino machine."
   },
   {
     id: 6,
     img: n6,
     name: 'Hyatt Grand Central - 109 E 42nd St, New York',
     location: 'NY 10017',
-    room: 5,
-    bed: 6,
-    bath: 2,
+    room: 34,
+    bed: 50,
+    bath: 42,
     price: "$3,876",
-    tag: "New York"
+    tag: "New York",
+    des:"Adjacent to Grand Central station, this sophisticated Midtown hotel is 13 minutes' walk from Times Square and 14 minutes' walk from the Empire State Building.Streamlined rooms include flat-screen TVs, Bluetooth speakers and Wi-Fi; some have city views. Suites add living rooms and dining tables. In-room spa services are available for a fee.There's a fitness center and a snack store."
   },
   {
     id: 7,
     img: n7,
     name: 'Even Hotel - 321 W 35th St, New York',
     location: 'NY 10001',
-    room: 5,
-    bed: 6,
-    bath: 2,
+    room: 52,
+    bed: 100,
+    bath: 60,
     price: "$5,001",
-    tag: "New York"
+    tag: "New York",
+    des: "This sleek modern hotel is a 2-minute walk from 34th Street-Penn Station subway station, a 13-minute walk from the Empire State Building and a mile from the High Line, an elevated walkway.Polished rooms with hardwood floors offer free Wi-Fi and flat-screen TVs, plus minifridges and coffeemakers. They also include exercise balls, yoga mats and fitness training videos. Amenities include a casual bar/restaurant with light bites and to-go fare, along with a 24-hour gym."
   },
 
   // mumbai
