@@ -79,6 +79,8 @@ export const hotels = [
     price: "$5,001",
     tag: "New York"
   },
+
+  // mumbai
   {
     id: 8,
     img: m1,
@@ -90,6 +92,9 @@ export const hotels = [
     price: "$5,001",
     tag: "Mumbai"
   },
+
+
+  // London
   {
     id: 9,
     img: l1,
@@ -101,6 +106,9 @@ export const hotels = [
     price: "$1,001",
     tag: "London"
   },
+
+
+  // Paris
   {
     id: 10,
     img: p1,
@@ -110,6 +118,7 @@ export const hotels = [
     bed: 2,
     bath: 1,
     price: "$3,401",
-    tag: "Paris"
+    tag: "Paris",
+    des: "location \nWith a stay at Aparthotel Adagio Access Paris Porte de Charenton in Charenton-le-Pont (Bercy), you'll be within a 15-minute drive of Paris Expo Porte de Versailles and Notre-Dame. This residence is 4.5 mi (7.3 km) from Louvre Museum and 5.4 mi (8.7 km) from Champs-Élysées.\nrooms \nMake yourself at home in one of the 134 guestrooms, featuring kitchenettes with refrigerators and stovetops. Flat-screen televisions with satellite programming provide entertainment, while complimentary wireless Internet access keeps you connected. Conveniences include phones, as well as safes and desks.\namenities \nThis smoke-free residence features wheelchair access and a playground.\ndining \nContinental breakfasts are served on weekdays from 7:00 AM to 10:00 AM for a fee.\nbusiness_amenities \nFeatured amenities include a 24-hour front desk, multilingual staff, and a safe deposit box at the front desk. Self parking (subject to charges) is available onsite."
   },
 ]
