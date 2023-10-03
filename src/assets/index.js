@@ -7,12 +7,12 @@ import n6 from './ny/n6.webp'
 import n7 from './ny/n7.webp'
 
 
-import h8 from './mumbai/h8.webp'
+import m1 from './mumbai/m1.webp'
 
 
-import h9 from './london/h9.webp'
+import l1 from './london/l1.webp'
 
-import h10 from './paris/h10.webp'
+import p1 from './paris/p1.webp'
 
 export {
     n1,
@@ -22,7 +22,7 @@ export {
     n5,
     n6,
     n7,
-    h8,
-    h9,
-    h10
+    m1,
+    l1,
+    p1
 }

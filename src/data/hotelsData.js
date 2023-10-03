@@ -1,4 +1,4 @@
-import { h10, h8, h9, n1, n2, n3, n4, n5, n6, n7 } from "../assets";
+import { l1, m1, n1, n2, n3, n4, n5, n6, n7, p1 } from "../assets";
 
 
 export const hotels = [
@@ -81,7 +81,7 @@ export const hotels = [
   },
   {
     id: 8,
-    img: h8,
+    img: m1,
     name: 'The Taj Mahal Palace - Apollo Bandar, Colaba',
     location: 'Mumbai',
     room: 5,
@@ -92,7 +92,7 @@ export const hotels = [
   },
   {
     id: 9,
-    img: h9,
+    img: l1,
     name: 'A quiet studio - London NW11',
     location: 'London',
     room: 3,
@@ -103,7 +103,7 @@ export const hotels = [
   },
   {
     id: 10,
-    img: h10,
+    img: p1,
     name: 'Aparthotel Adagio - Charenton-le-Pont ',
     location: 'Paris',
     room: 4,
