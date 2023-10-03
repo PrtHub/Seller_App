@@ -10,7 +10,7 @@ export const hotels = [
     room: 5,
     bed: 6,
     Bath: 2,
-    price: "$5,058/month",
+    price: "$5,058",
     tag: "New York"
   },
   {
@@ -21,7 +21,7 @@ export const hotels = [
     room: 5,
     bed: 6,
     Bath: 2,
-    price: "$3,123/month",
+    price: "$3,123",
     tag: "New York"
   },
   {
@@ -32,7 +32,7 @@ export const hotels = [
     room: 5,
     bed: 6,
     Bath: 2,
-    price: "$6,123/month",
+    price: "$6,123",
     tag: "New York"
   },
   {
@@ -43,7 +43,7 @@ export const hotels = [
     room: 5,
     bed: 6,
     Bath: 2,
-    price: "$5,342/month",
+    price: "$5,342",
     tag: "New York"
   },
   {
@@ -54,7 +54,7 @@ export const hotels = [
     room: 5,
     bed: 6,
     Bath: 2,
-    price: "$4,987/month",
+    price: "$4,987",
     tag: "New York"
   },
   {
@@ -65,7 +65,7 @@ export const hotels = [
     room: 5,
     bed: 6,
     Bath: 2,
-    price: "$4,987/month",
+    price: "$3,876",
     tag: "New York"
   },
 ]
