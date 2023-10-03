@@ -1,4 +1,4 @@
-import { h1, h2, h3, h4, h5, h6, h7 } from "../assets";
+import { h1, h10, h2, h3, h4, h5, h6, h7, h8, h9 } from "../assets";
 
 
 export const hotels = [
@@ -71,12 +71,45 @@ export const hotels = [
   {
     id: 7,
     img: h7,
-    name: 'Even Hotel  - 321 W 35th St, New York',
+    name: 'Even Hotel - 321 W 35th St, New York',
     location: 'NY 10001',
     room: 5,
     bed: 6,
     Bath: 2,
     price: "$5,001",
     tag: "New York"
+  },
+  {
+    id: 8,
+    img: h8,
+    name: 'The Taj Mahal Palace - Apollo Bandar, Colaba',
+    location: 'Mumbai',
+    room: 5,
+    bed: 6,
+    Bath: 2,
+    price: "$5,001",
+    tag: "Mumbai"
+  },
+  {
+    id: 9,
+    img: h9,
+    name: 'A quiet studio - London NW11',
+    location: 'London',
+    room: 3,
+    bed: 2,
+    Bath: 1,
+    price: "$1,001",
+    tag: "London"
+  },
+  {
+    id: 10,
+    img: h10,
+    name: 'Aparthotel Adagio - Charenton-le-Pont ',
+    location: 'Paris',
+    room: 4,
+    bed: 2,
+    Bath: 1,
+    price: "$3,401",
+    tag: "Paris"
   },
 ]
