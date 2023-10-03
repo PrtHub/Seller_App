@@ -1,4 +1,4 @@
-import { l1, m1, n1, n2, n3, n4, n5, n6, n7, p1, p2, p3 } from "../assets";
+import { l1, l2, l3, m1, n1, n2, n3, n4, n5, n6, n7, p1, p2, p3 } from "../assets";
 
 
 export const hotels = [
@@ -96,7 +96,7 @@ export const hotels = [
 
   // London
   {
-    id: 9,
+    id: 90,
     img: l1,
     name: 'A quiet studio - London NW11',
     location: 'London',
@@ -104,7 +104,32 @@ export const hotels = [
     bed: 2,
     bath: 1,
     price: "$1,001",
-    tag: "London"
+    tag: "London",
+    des: "Brand new, quiet, private,modern studio with en-suite shower/WC & private entrance at side of family house. Wi-fi, fridge, tea/coffee, microwave included. Lovely garden views. 5mins to shops, Golders Green underground and parks. Tube to Oxford St 25min, Camden Town 10m. Airports: Heathrow 35mins Luton 30min, bus to Stanstead (1 hour)."
+  },
+  {
+    id: 91,
+    img: l2,
+    name: 'Safestay London Kensington Holland Park',
+    location: 'London W8 7QU',
+    room: 3,
+    bed: 2,
+    bath: 1,
+    price: "$3,948",
+    tag: "London",
+    des: "Occupying 3 buildings in 54-acre Holland Park, this vibrant hostel is an 8-minute walk from Holland Park tube station, 2 miles from the Victoria and Albert Museum, and 3 miles from Buckingham Palace. Simple, colourful dorms with shared or en suite bathrooms offer free Wi-Fi and safes, as well as bunk beds with privacy curtains and reading lights. Private rooms have flat-screen TVs, and tea and coffeemaking facilities.There's a bright, informal cafe/bar; continental breakfast is available for a fee. Other amenities include a casual lounge, a game room and a courtyard."
+  },
+  {
+    id: 93,
+    img: l3,
+    name: 'Hilton London Metropole - 225 Edgware Rd',
+    location: 'London W2 1JU',
+    room: 10,
+    bed: 21,
+    bath: 7,
+    price: "$7,948",
+    tag: "London",
+    des:"A 2-minute walk from Edgware Road tube station, this modern hotel is less than a mile from Hyde Park and 2 miles from Buckingham Palace.Warm rooms offer flat-screen TVs, Wi-Fi and minifridges, plus tea and coffeemaking facilities, work desks and custom-made beds. Upgraded rooms add access to a lounge serving complimentary breakfast and refreshments. Suites offer separate living rooms; some have kitchens.Amenities include a casual restaurant offering locally sourced ingredients & meats, plus a contemporary bar serving craft ales and themed cocktails. There are also multiple meeting/event rooms and a gym."
   },
 
 
