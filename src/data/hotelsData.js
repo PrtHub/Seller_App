@@ -1,4 +1,4 @@
-import { h1, h2, h3, h4, h5, h6 } from "../assets";
+import { h1, h2, h3, h4, h5, h6, h7 } from "../assets";
 
 
 export const hotels = [
@@ -66,6 +66,17 @@ export const hotels = [
     bed: 6,
     Bath: 2,
     price: "$3,876",
+    tag: "New York"
+  },
+  {
+    id: 7,
+    img: h7,
+    name: 'Even Hotel  - 321 W 35th St, New York',
+    location: 'NY 10001',
+    room: 5,
+    bed: 6,
+    Bath: 2,
+    price: "$5,001",
     tag: "New York"
   },
 ]

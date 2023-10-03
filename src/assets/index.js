@@ -4,6 +4,7 @@ import h3 from './h3.webp'
 import h4 from './h4.webp'
 import h5 from './h5.webp'
 import h6 from './h6.webp'
+import h7 from './h7.webp'
 
 export {
     h1,
@@ -11,5 +12,6 @@ export {
     h3,
     h4,
     h5,
-    h6
+    h6,
+    h7
 }
