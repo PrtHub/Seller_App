@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { HotelCard } from "../components";
+import { HotelCard, Seo } from "../components";
 import { hotels } from "../data/hotelsData";
 
 const Hotels = () => {
@@ -20,6 +20,8 @@ const Hotels = () => {
     : hotels;
 
   return (
+    <>
+    <Seo title="Finder - Your Gateway to Premium Stays"/>
     <main className="w-full h-full flex flex-col gap-5 my-5 px-10">
       <section className="w-full flex justify-between items-center">
         <ul className="flex items-center justify-center gap-5 text-sm">
@@ -76,6 +78,7 @@ const Hotels = () => {
         )}
       </section>
     </main>
+    </>
   );
 };
 

@@ -3,6 +3,7 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 import { useParams } from "react-router-dom";
 import { hotels } from "../data/hotelsData";
 import { CiLocationOn } from "react-icons/ci";
+import { Seo } from "../components";
 
 const HotelDetails = () => {
   const { id } = useParams();
@@ -14,13 +15,15 @@ const HotelDetails = () => {
   }
 
   return (
+    <>
+    <Seo title={`${property.name} - Finder`}/>
     <main className="w-full h-full flex flex-col items-start justify-start gap-5 my-20 px-10">
       <LazyLoadImage
         alt={property.name}
         effect="blur"
         src={property.img}
         className="w-full h-72 object-cover rounded-xl"
-      />
+        />
       <section className="flex flex-col gap-2">
         <p className="flex items-center gap-1 text-xs">
           <CiLocationOn className="text-orange-400" />{" "}
@@ -36,6 +39,7 @@ const HotelDetails = () => {
       </p>
       <button onClick={goBack} className="bg-blue-600 text-white px-4 py-2 rounded-lg mt-10">&larr; Back</button>
     </main>
+        </>
   );
 };
 
