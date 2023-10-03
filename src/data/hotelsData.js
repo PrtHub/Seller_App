@@ -1,4 +1,4 @@
-import { l1, m1, n1, n2, n3, n4, n5, n6, n7, p1 } from "../assets";
+import { l1, m1, n1, n2, n3, n4, n5, n6, n7, p1, p2, p3 } from "../assets";
 
 
 export const hotels = [
@@ -120,5 +120,29 @@ export const hotels = [
     price: "$3,401",
     tag: "Paris",
     des: "location \nWith a stay at Aparthotel Adagio Access Paris Porte de Charenton in Charenton-le-Pont (Bercy), you'll be within a 15-minute drive of Paris Expo Porte de Versailles and Notre-Dame. This residence is 4.5 mi (7.3 km) from Louvre Museum and 5.4 mi (8.7 km) from Champs-Élysées.\nrooms \nMake yourself at home in one of the 134 guestrooms, featuring kitchenettes with refrigerators and stovetops. Flat-screen televisions with satellite programming provide entertainment, while complimentary wireless Internet access keeps you connected. Conveniences include phones, as well as safes and desks.\namenities \nThis smoke-free residence features wheelchair access and a playground.\ndining \nContinental breakfasts are served on weekdays from 7:00 AM to 10:00 AM for a fee.\nbusiness_amenities \nFeatured amenities include a 24-hour front desk, multilingual staff, and a safe deposit box at the front desk. Self parking (subject to charges) is available onsite."
+  },
+  {
+    id: 11,
+    img: p2,
+    name: 'Pet Friendly Luxury Designer Loft',
+    location: 'Paris',
+    room: 4,
+    bed: 4,
+    bath: 2,
+    price: "$4,431",
+    tag: "Paris",
+    des: "Bring the pups! This pet-friendly vacation rental in Paris can comfortably sleep 8 people in 4 bedrooms and 4.5 bathrooms. The house has a television, internet, laundry, air conditioning, and a bbq grill on the patio. Linens and towels are provided. There is no minimum stay at this property, and guests will receive a 100% refund if their reservation is canceled at least 60 days before the arrival date. Guests may check-in anytime after 3 pm and must check-out by 10 am."
+  },
+  {
+    id: 12,
+    img: p3,
+    name: 'Hyatt Regency Paris Étoile',
+    location: '75017 Paris',
+    room: 4,
+    bed: 4,
+    bath: 2,
+    price: "$8,899",
+    tag: "Paris",
+    des: "Attached to the Palais des Congrès center, this refined hotel is a 5-minute walk from Porte Maillot metro station and Neuilly RER station.The upscale rooms come with free Wi-Fi, flat-screen TVs and high-end linens. Upgraded rooms offer access to a lounge with complimentary breakfast, snacks and evening drinks; some feature panoramic views of the Eiffel Tower. Suites, some 2-bedroom, add living rooms and marble bathrooms. Room service is offered 24/7.There's an elegant lobby restaurant, and a chic bar/lounge on the 34th floor offering panoramic city views. There's also a gym, a business center and meeting space. Parking is available (fee)."
   },
 ]

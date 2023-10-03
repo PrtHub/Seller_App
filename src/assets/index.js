@@ -13,6 +13,8 @@ import m1 from './mumbai/m1.webp'
 import l1 from './london/l1.webp'
 
 import p1 from './paris/p1.webp'
+import p2 from './paris/p2.webp'
+import p3 from './paris/p3.webp'
 
 export {
     n1,
@@ -24,5 +26,7 @@ export {
     n7,
     m1,
     l1,
-    p1
+    p1,
+    p2,
+    p3
 }

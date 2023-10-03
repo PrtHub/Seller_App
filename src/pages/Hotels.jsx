@@ -66,7 +66,7 @@ const Hotels = () => {
         ))}
       </section>
       <section className="flex items-center justify-center">
-        {visibleHotels < hotels.length && (
+        {visibleHotels < filterdHotels.length && (
           <button
             className="bg-blue-600 text-white text-sm font-semibold px-4 py-2 rounded-xl hover:bg-white hover:text-blue-600 hover:border-[1px] border-blue-600 transition-all duration-300 ease-in-out"
             onClick={showMoreHotels}
