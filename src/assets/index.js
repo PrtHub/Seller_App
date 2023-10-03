@@ -1,22 +1,27 @@
-import h1 from './h1.webp'
-import h2 from './h2.webp'
-import h3 from './h3.webp'
-import h4 from './h4.webp'
-import h5 from './h5.webp'
-import h6 from './h6.webp'
-import h7 from './h7.webp'
-import h8 from './h8.webp'
-import h9 from './h9.webp'
-import h10 from './h10.webp'
+import n1 from './ny/n1.webp'
+import n2 from './ny/n2.webp'
+import n3 from './ny/n3.webp'
+import n4 from './ny/n4.webp'
+import n5 from './ny/n5.webp'
+import n6 from './ny/n6.webp'
+import n7 from './ny/n7.webp'
+
+
+import h8 from './mumbai/h8.webp'
+
+
+import h9 from './london/h9.webp'
+
+import h10 from './paris/h10.webp'
 
 export {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    h7,
+    n1,
+    n2,
+    n3,
+    n4,
+    n5,
+    n6,
+    n7,
     h8,
     h9,
     h10

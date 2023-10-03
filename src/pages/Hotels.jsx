@@ -31,19 +31,28 @@ const Hotels = () => {
           >
             New York
           </li>
-          <li className={`list-item ${
+          <li
+            className={`list-item ${
               selectedTag === "Mumbai" ? "bg-blue-600 text-white" : ""
-            }`} onClick={() => filterHotelByTag("Mumbai")}>
+            }`}
+            onClick={() => filterHotelByTag("Mumbai")}
+          >
             Mumbai
           </li>
-          <li className={`list-item ${
+          <li
+            className={`list-item ${
               selectedTag === "Paris" ? "bg-blue-600 text-white" : ""
-            }`} onClick={() => filterHotelByTag("Paris")}>
+            }`}
+            onClick={() => filterHotelByTag("Paris")}
+          >
             Paris
           </li>
-          <li className={`list-item ${
+          <li
+            className={`list-item ${
               selectedTag === "London" ? "bg-blue-600 text-white" : ""
-            }`} onClick={() => filterHotelByTag("London")}>
+            }`}
+            onClick={() => filterHotelByTag("London")}
+          >
             London
           </li>
         </ul>
