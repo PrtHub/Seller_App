@@ -1,4 +1,4 @@
-import { l1, l2, l3, m1, m2, n1, n2, n3, n4, n5, n6, n7, p1, p2, p3 } from "../assets";
+import { l1, l2, l3, m1, m3, m4, n1, n2, n3, n4, n5, n6, n7, p1, p2, p3 } from "../assets";
 
 
 export const hotels = [
@@ -89,21 +89,33 @@ export const hotels = [
     room: 55,
     bed: 120,
     bath: 60,
-    price: "$5,001",
+    price: "$5,349",
     tag: "Mumbai",
-    des:""
+    des:"Opposite the Arabian Sea, this luxury hotel is a 6-minute walk from the Gateway of India and 3 km from the bustling Marine Drive.The refined rooms come with free Wi-Fi, flat-screens and turndown service. Club-level rooms add butler service, marble bathrooms and access to a private lounge serving drinks and appetizers. Suites add living rooms, and the presidential suite provides a spa and a fitness room. Freebies include a breakfast buffet, parking and airport pickup (for club-level and suites’ guests). There are 11 upscale restaurants and bars. A spa, a beauty salon, an outdoor pool, a fitness room and a luxe shopping zone are also on-site."
   },
   {
-    id: 81,
-    img: m2,
-    name: 'Fairfield - Building 16B, Samita Industrial Estate',
+    id: 82,
+    img: m3,
+    name: 'The Royal Orchid - 83, Narayan Gajanan Acharya Marg',
     location: 'Mumbai',
     room: 30,
     bed: 46,
     bath: 40,
     price: "$3,001",
     tag: "Mumbai",
-    des:""
+    des:"On a busy street, this informal hotel is 4 km from transportation exhibits at the BEST Museum, 7 km from Maharashtra Nature Park and 12 km from Chhatrapati Shivaji International Airport. Warmly decorated rooms feature Wi-Fi, flat-screen TVs, and tea and coffeemaking facilities. Room service is available.There's a bright international restaurant, as well as a chic bar/lounge serving small bites. A breakfast buffet and parking are available."
+  },
+  {
+    id: 83,
+    img: m4,
+    name: 'Novotel Mumbai - Balraj Sahni Rd, Juhu',
+    location: 'Mumbai',
+    room: 30,
+    bed: 46,
+    bath: 40,
+    price: "$6,431",
+    tag: "Mumbai",
+    des:"Set within a 9-minute walk of 2 bus stops, this upscale hotel is 3.7 km from Nehru Science Centre and 12 km from Siddhivinayak Temple.The modern rooms offer free Wi-Fi, flat-screen TVs and desks, along with minibars, microwaves, and tea and coffeemaking facilities. Upgraded rooms provide access to a lounge with free beverages, while suites add separate living rooms. Room service is available. The hotel offers free parking and breakfast. Additional amenities include 5 dining options, some with outdoor seating, as well as 2 bars with live music. There's also an outdoor pool and a gym, plus a spa area with a sauna and massage treatments."
   },
 
 

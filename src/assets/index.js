@@ -9,6 +9,8 @@ import n7 from './ny/n7.webp'
 
 import m1 from './mumbai/m1.webp'
 import m2 from './mumbai/m2.webp'
+import m3 from './mumbai/m3.webp'
+import m4 from './mumbai/m4.webp'
 
 
 import l1 from './london/l1.webp'
@@ -30,6 +32,8 @@ export {
 
     m1,
     m2,
+    m3,
+    m4,
 
     l1,
     l2,
