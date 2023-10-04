@@ -87,6 +87,31 @@ export const hotels = [
     tag: "New York",
     des: "This sleek modern hotel is a 2-minute walk from 34th Street-Penn Station subway station, a 13-minute walk from the Empire State Building and a mile from the High Line, an elevated walkway.Polished rooms with hardwood floors offer free Wi-Fi and flat-screen TVs, plus minifridges and coffeemakers. They also include exercise balls, yoga mats and fitness training videos. Amenities include a casual bar/restaurant with light bites and to-go fare, along with a 24-hour gym."
   },
+  {
+    id: 71,
+    img: n7,
+    name: 'Hilton Garden - 70 Challenger Rd, Ridgefield Park',
+    location: 'NY 07660',
+    room: 50,
+    bed: 78,
+    bath: 60,
+    price: "$5,449",
+    tag: "New York",
+    des: "Set off Interstate 95, this modern hotel is a 7-minute drive to the George Washington Bridge and New York City.All rooms offer chic decor and custom-designed beds, plus flat-screen TVs with premium cable channels, microwaves, minifridges and free WiFi.A cooked-to-order breakfast is available (fee), and there's an on-site restaurant serving American cuisine, as well as a low-key bar and a 24/7 convenience store. There's also an exercise room and an indoor pool with a hot tub. Additional amenities include 2 meeting rooms offering 1,500 sq ft of event space, plus a business center."
+  },
+  {
+    id: 72,
+    img: n7,
+    name: 'Four Points - 6 Platt St, New York',
+    location: 'NY 10038',
+    room: 48,
+    bed: 70,
+    bath: 60,
+    price: "$4,999",
+    tag: "New York",
+    des: "Set in Manhattan's Financial District, this contemporary hotel is a 7-minute walk from the New York Stock Exchange, a 14-minute walk from One World Trade Center and a 1.2 mile-drive from the Brooklyn Bridge.The simple, modern rooms have free Wi-Fi and bottled water, plus 42-inch flat-screen TVs, and desks with ergonomic chairs. Suites add pull-out sofas and separate living areas.There's a casual American restaurant and a rooftop bar with a seasonal terrace, as well as a 24/7 fitness room. Additional amenities include 7 meeting rooms and a business center."
+    
+  },
 
   // mumbai
   {
