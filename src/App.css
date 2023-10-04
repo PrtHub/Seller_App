@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,9 +8,25 @@
 }
 
 body {
-  @apply bg-blue-50 font-open
+  @apply bg-blue-50 font-open;
 }
 
 .list-item {
-  @apply  bg-indigo-100 px-4 py-2 rounded-2xl cursor-pointer list-none border-none font-semibold text-gray-600 hover:bg-blue-600 hover:text-white transition-all duration-300 ease-in-out
+  @apply bg-indigo-100 px-4 py-2 rounded-2xl cursor-pointer list-none border-none font-semibold text-gray-600 hover:bg-blue-600 hover:text-white transition-all duration-300 ease-in-out;
+}
+
+.favorite {
+  @apply absolute top-2 right-2 bg-white text-blue-600 p-2 font-semibold text-base rounded-full;
+}
+
+.flexStart {
+  @apply flex flex-col items-start justify-start;
+}
+
+.blueBtn {
+  @apply bg-blue-600 text-white text-sm font-semibold px-4 py-2 rounded-xl hover:bg-white hover:text-blue-600 hover:border-[1px] border-blue-600 transition-all duration-300 ease-in-out
+}
+
+.readBtn {
+  @apply hover:bg-blue-600 border-blue-600 border-[1px] text-blue-600 hover:text-white rounded-xl text-sm font-semibold px-3 py-2 transition-all duration-300 ease-in-out
 }

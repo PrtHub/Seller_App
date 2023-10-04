@@ -1,4 +1,4 @@
-import { l1, l2, l3, m1, m3, m4, n1, n2, n3, n4, n5, n6, n7, n8, p1, p2, p3 } from "../assets";
+import { l1, l2, l3, m1, m3, m4, n1, n2, n3, n4, n5, n6, n7, n8, n9, p1, p2, p3 } from "../assets";
 
 
 export const hotels = [
@@ -101,7 +101,7 @@ export const hotels = [
   },
   {
     id: 72,
-    img: n7,
+    img: n9,
     name: 'Four Points - 6 Platt St, New York',
     location: 'NY 10038',
     room: 48,
